@@ -107,7 +107,5 @@ for photoset in photosets[0]:
                 except urllib.error.ContentTooShortError: 
                     print('Download ' + url + ' failed, retry... ')    
         item = item + 1
-        break
     print('=== Download photoset ' + attrib['id'] + ' completed! ===')
-    break
 print('=== All photosets downloaded! ===')
